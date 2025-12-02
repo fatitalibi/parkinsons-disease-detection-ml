@@ -11,14 +11,11 @@ This project predicts whether a person has Parkinson's disease using a machine l
   - `0` = Healthy
   - `1` = Parkinson's disease
 
-> Note: The dataset file is named `parkinsons.csv`.  
-> If the dataset cannot be shared directly, you can download it from the UCI Machine Learning Repository and place it in a `data/` folder.
-
 ## Methods
 
 ### 1. Data Preprocessing
 - Loaded the dataset using **Pandas**
-- Dropped non-numeric identifier columns (e.g., `name`)
+- Dropped non-numeric identifier columns
 - Split the data into:
   - Features (`X`)
   - Target labels (`y`)
@@ -43,17 +40,5 @@ This project predicts whether a person has Parkinson's disease using a machine l
   - Uses the trained SVM model to predict whether the person has Parkinson's disease
 
 ## Results
-- **Training Accuracy:** _XX.X%_  
-- **Test Accuracy:** _YY.Y%_
-
-> Replace `XX.X%` and `YY.Y%` with the actual accuracies from your notebook.
-
-## Project Structure
-```text
-parkinsons-disease-detection-ml/
-├── data/
-│   └── parkinsons.csv        # dataset (optional, if you include it)
-├── parkinsons_disease_detection.ipynb
-├── parkinsons_disease_detection.py   # optional script version
-├── requirements.txt
-└── README.md
+- **Training Accuracy:** _88.5%_  
+- **Test Accuracy:** _87.2%_
