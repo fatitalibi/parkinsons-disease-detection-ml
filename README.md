@@ -1,6 +1,7 @@
 # Parkinson's Disease Detection ML Project
 
 ## Overview
+Early Parkinson’s detection helps doctors identify symptoms sooner. Voice measurement–based ML models can assist screening by analyzing non-invasive features.
 This project predicts whether a person has Parkinson's disease using a machine learning model trained on clinical voice measurements. It walks through data loading, preprocessing, model training, evaluation, and building a simple predictive system.
 
 ## Dataset
